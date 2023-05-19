@@ -25,7 +25,7 @@ ABOUT = load_about()
 
 
 setup(
-    name="tutor-contrib-mfe",
+    name="tutor-contrib-translations",
     version=ABOUT["__version__"],
     url="https://github.com/aulasneo/tutor-contrib-translations",
     project_urls={
@@ -34,7 +34,7 @@ setup(
     },
     license="AGPLv3",
     author="Andrés González",
-    description="mfe plugin for Tutor",
+    description="Translations plugin for Tutor",
     long_description=load_readme(),
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
@@ -42,7 +42,7 @@ setup(
     install_requires=["tutor"],
     entry_points={
         "tutor.plugin.v1": [
-            "mfe = tutortranslations.plugin"
+            "translations = tutortranslations.plugin"
         ]
     },
     classifiers=[

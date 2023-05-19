@@ -1,0 +1,3 @@
+{% if 'es' in TRANSLATIONS_MFE_PROFILE %}{ {% for key,value in TRANSLATIONS_MFE_PROFILE.es.items() %}
+  "{{ key }}": "{{ value }}"{%- if not loop.last %},{% endif %}{% endfor %}
+}{% endif %}

@@ -17,6 +17,10 @@ config = {
     # Add here your new settings
     "defaults": {
         "VERSION": __version__,
+        "OPENEDX": {},
+        "MFE_LEARNING": {},
+        "MFE_ACCOUNT": {},
+        "MFE_PROFILE": {}
     },
     "unique": {},
     "overrides": {},
