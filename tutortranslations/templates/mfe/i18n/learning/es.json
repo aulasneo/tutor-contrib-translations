@@ -1,3 +1,5 @@
-{% if 'es' in TRANSLATIONS_MFE_LEARNING %}{ {% for key,value in TRANSLATIONS_MFE_LEARNING.es.items() %}
+{
+{% if 'es' in TRANSLATIONS_MFE_LEARNING %}{% for key,value in TRANSLATIONS_MFE_LEARNING.es.items() %}
   "{{ key }}": "{{ value }}"{%- if not loop.last %},{% endif %}{% endfor %}
-}{% endif %}
+{% endif %}
+}

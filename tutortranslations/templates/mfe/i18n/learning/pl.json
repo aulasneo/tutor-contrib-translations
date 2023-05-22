@@ -2,446 +2,446 @@
 {% if 'pl' in TRANSLATIONS_MFE_LEARNING %}{% for key,value in TRANSLATIONS_MFE_LEARNING.pl.items() %}
   "{{ key }}": "{{ value }}",{% endfor %}
 {% endif %}{% raw %}
-  "learning.accessExpiration.deadline": "Aktualizuj do {date}, aby uzyskać nieograniczony dostęp do kursu tak długo, jak istnieje on na stronie."
-  "learning.accessExpiration.header": "Dostęp do bezpłatnego udziału w kursie wygasa {date}"
-  "learning.accessExpiration.body": "Utracisz cały dostęp do tego kursu, w tym swoje postępy, w dniu {date}."
-  "instructorToolbar.pageBanner.courseHasExpired": "Uczeń nie ma już dostępu do tego kursu. Jego dostęp wygasł {date}."
-  "learning.accessExpiration.upgradeNow": "Aktualizuj teraz"
-  "learning.activeEnterprise.alert": "{changeActiveEnterprise}."
-  "learning.activeEnterprise.change.alert": "zmień firmę teraz"
-  "learning.outline.alert.start.short": "Kurs rozpoczyna się {timeRemaining} o {courseStartTime}."
-  "learning.outline.alert.end.long": "Ten kurs zakończy się za {timeRemaining} w dniu {courseEndDate}."
-  "learning.outline.alert.end.calendar": "Nie zapomnij dodać przypomnienia w kalendarzu."
-  "instructorToolbar.pageBanner.courseHasNotStarted": "Ten student nie ma jeszcze dostępu do tego kursu. Kurs rozpoczyna się {date}."
-  "learning.enrollment.alert": "Aby zobaczyć zawartość kursu, musisz być zapisany na kurs."
-  "learning.staff.enrollment.alert": "Przeglądasz ten kurs jako instruktor i nie jesteś zapisany."
-  "learning.enrollment.enrollNow.Inline": "Zapisz się teraz"
-  "learning.enrollment.enrollNow.Sentence": "Zapisz się teraz."
-  "learning.enrollment.success": "Pomyślnie zapisałeś się na ten kurs!"
-  "account-activation.alert.button": "Kontynuuj do {siteName}"
-  "account-activation.alert.message": "Wysłaliśmy wiadomość e-mail na adres {boldEmail} z linkiem aktywującym Twoje konto. Nie możesz go znaleźć? Sprawdź folder ze spamem lub\n {sendEmailTag}."
-  "account-activation.resend.link": "ponownie wyślij e-mail"
-  "learning.logistration.alert": "Aby wyświetlić treść kursu, {signIn} lub {register}."
-  "account-activation.alert.title": "Aktywuj swoje konto, aby móc ponownie się połączyć"
-  "learn.sequence.entranceExamTextNotPassing": "Aby uzyskać dostęp do materiałów szkoleniowych, musisz uzyskać na tym egzaminie co najmniej {entranceExamMinimumScorePct}% lub więcej. Twój aktualny wynik to {entranceExamCurrentScore}%."
-  "learn.sequence.entranceExamTextPassed": "Twój wynik to {entranceExamCurrentScore}%. Zdałeś egzamin wstępny."
-  "learning.dates.badge.completed": "Wypełniony"
-  "learning.dates.badge.dueNext": "Następny termin ważności"
-  "learning.dates.badge.pastDue": "Pokonany"
-  "learning.dates.title": "Ważne daty"
-  "learning.dates.badge.today": "Dziś"
-  "learning.dates.badge.unreleased": "Jeszcze nie wypuszczony"
-  "learning.dates.badge.verifiedOnly": "tylko zweryfikowane"
-  "learning.goals.unsubscribe.contact": "skontaktuj się z zespołem wsparcia edX"
-  "learning.goals.unsubscribe.description": "Nie będziesz już otrzymywać e-maili z przypomnieniem o celu kursu {courseTitle}."
-  "learning.goals.unsubscribe.errorHeader": "Coś poszło nie tak"
-  "learning.goals.unsubscribe.goToDashboard": "Przejdź do panelu głównego"
-  "learning.goals.unsubscribe.header": "Anulowałeś subskrypcję przypomnień o celach."
-  "learning.goals.unsubscribe.loading": "Rezygnacja z subskrypcji..."
-  "learning.goals.unsubscribe.errorDescription": "Nie można było anulować subskrypcji wiadomości e-mail z przypomnieniem o celu. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną {contactSupport}"
-  "learning.outline.alert.cert.earnedNotAvailable": "Ten kurs kończy się {courseEndDateFormatted}. Oceny końcowe i zdobyte certyfikaty będą dostępne po tej dacie"
-  "cert.alert.earned.unavailable.header.v2": "Status Twojej kwalifikacji i certyfikatu będzie dostępny wkrótce."
-  "cert.alert.earned.ready.header": "Gratulacje! Twój certyfikat jest gotowy."
-  "cert.alert.notPassing.header": "Nie kwalifikujesz się jeszcze do otrzymania certyfikatu"
-  "cert.alert.notPassing.button": "Zobacz oceny"
-  "learning.outline.alert.end.short": "Ten kurs kończy się za {timeRemaining} o {courseEndTime}."
-  "alert.enroll": " aby uzyskać dostęp do pełnego kursu."
-  "learning.privateCourse.signInOrRegister": "{sign} lub {register}, a następnie zapisz się na ten kurs."
-  "learning.outline.alert.scheduled-content.heading": "Wkrótce będzie więcej treści!"
-  "learning.outline.alert.scheduled-content.body": "Ten kurs będzie zawierał więcej treści w przyszłości. Śledź aktualizacje e-mail lub sprawdzaj ponownie ten kurs, aby uzyskać aktualizacje."
-  "learning.outline.alert.scheduled-content.button": "Zobacz program kursu"
-  "learning.outline.dates.all": "Zobacz wszystkie terminy kursów"
-  "learning.outline.goalButton.casual.text": "1 dzień w tygodniu"
-  "learning.outline.goalButton.screenReader.text": "Zwykły "
-  "learning.outline.certificateAlt": "Przykładowy certyfikat"
-  "learning.outline.collapseAll": "Zwiń wszystko"
-  "learning.outline.completedAssignment": "Wypełniony"
-  "learning.outline.completedSection": "Sekcja zakończona"
-  "learning.outline.dates": "Ważne daty"
-  "learning.outline.editGoal": "Edytuj cel"
-  "learning.outline.expandAll": "Rozwiń wszystkie"
-  "learning.outline.goal": "Bramka"
-  "learning.outline.goalReminderDetail": "Jeśli zauważymy, że nie jesteś jeszcze blisko osiągnięcia celu, wyślemy Ci e-mail z przypomnieniem."
-  "learning.outline.goalUnsure": "Nie jestem jeszcze pewny"
-  "learning.outline.handouts": "Materiały szkoleniowe"
-  "learning.outline.incompleteAssignment": "Niekompletny"
-  "learning.outline.incompleteSection": "Niekompletna sekcja"
-  "learning.outline.goalButton.intense.text": "5 dni w tygodniu"
-  "learning.outline.goalButton.intense.title": "Intensywny"
-  "learning.outline.learnMore": "Ucz się więcej"
-  "learning.outline.altText.openSection": "Otwarty"
-  "learning.proctoringPanel.header": "Ten kurs zawiera egzaminy nadzorowane"
-  "learning.outline.goalButton.regular.text": "3 dni w tygodniu"
-  "learning.outline.goalButton.regular.title": "Regularny"
-  "learning.outline.resumeBlurb": "Rozpocznij od miejsca, w którym skończyłeś"
-  "learning.outline.resume": "Kontynuuj kurs"
-  "learning.outline.setGoal": "Aby rozpocząć, ustal cel kursu, wybierając opcję poniżej, która najlepiej opisuje Twój plan nauki."
-  "learning.outline.setGoalReminder": "Ustaw przypomnienie o celu"
-  "learning.outline.goalButton.casual.title": "Ustaw styl celu uczenia się"
-  "learning.outline.setWeeklyGoal": "Ustaw tygodniowy cel nauki"
-  "learning.outline.setWeeklyGoalDetail": "Wyznaczenie celu motywuje do ukończenia kursu. Zawsze możesz zmienić cel."
-  "learning.outline.start": "Rozpocznij kurs"
-  "learning.outline.startBlurb": "Rozpocznij kurs już dziś"
-  "learning.outline.tools": "Narzędzia Kursu"
-  "learning.outline.upgradeButton": "Aktualizacja ({symbol}{cena})"
-  "learning.outline.upgradeTitle": "Uzyskaj zweryfikowany certyfikat"
-  "learning.outline.welcomeMessage": "Wiadomość powitalna"
-  "learning.outline.welcomeMessageShowMoreButton": "Pokaż więcej"
-  "learning.outline.welcomeMessageShowLessButton": "Pokaż mniej"
-  "learning.outline.goalWelcome": "Witamy w"
-  "learning.proctoringPanel.status.notStarted": "Nie rozpoczęła"
-  "learning.proctoringPanel.status.started": "Początek"
-  "learning.proctoringPanel.status.submitted": "Wysłać"
-  "learning.proctoringPanel.status.verified": "zweryfikowany"
-  "learning.proctoringPanel.status.rejected": "Odrzucony"
-  "learning.proctoringPanel.status.error": "Błąd"
-  "learning.proctoringPanel.status.otherCourseApproved": "Zatwierdzony w innym kursie"
-  "learning.proctoringPanel.status.expiringSoon": "wygasa wkrótce"
-  "learning.proctoringPanel.status": "Obecny stan integracji"
-  "learning.proctoringPanel.message.notStarted": "Nie zacząłeś egzaminu integracyjnego."
-  "learning.proctoringPanel.message.started": "Rozpocząłeś egzamin integracyjny."
-  "learning.proctoringPanel.message.submitted": "Wysłałeś swój egzamin integracyjny."
-  "learning.proctoringPanel.message.verified": "Twój egzamin wstępny został zdany na tym kursie."
-  "learning.proctoringPanel.message.rejected": "Twój egzamin integracyjny został odrzucony. Spróbuj ponownie przeprowadzić integrację."
-  "learning.proctoringPanel.message.error": "Wystąpił błąd podczas testu integracji. Spróbuj ponownie integracji."
-  "learning.proctoringPanel.message.otherCourseApproved": "Twój egzamin wstępny został zdany na innym kursie."
-  "learning.proctoringPanel.detail.otherCourseApproved": "Jeśli Twoje urządzenie uległo zmianie, zalecamy przystąpienie do egzaminu wstępnego na ten kurs, aby upewnić się, że Twoja konfiguracja nadal spełnia wymagania egzaminu nadzorowanego."
-  "learning.proctoringPanel.message.expiringSoon": "Twój profil wpisu został zatwierdzony w innym kursie. Jednak twój status wpisu wkrótce wygaśnie. Proszę ponownie ukończyć proces wpisu, aby upewnić się, że możesz nadal przystępować do egzaminów nadzorowanych.,"
-  "learning.proctoringPanel.generalInfo": "Przed przystąpieniem do egzaminów nadzorowanych musisz ukończyć proces wdrażania."
-  "learning.proctoringPanel.generalInfoSubmitted": "Twój przesłany profil jest w trakcie sprawdzania."
-  "learning.proctoringPanel.generalTime": "Weryfikacja profilu logowania może potrwać dłużej niż 2 dni robocze."
-  "learning.proctoringPanel.onboardingButton": "Pełna integracja"
-  "learning.proctoringPanel.onboardingPracticeButton": "Zobacz egzamin wstępny"
-  "learning.proctoringPanel.onboardingButtonNotOpen": "Otwarcie integracji"
-  "learning.proctoringPanel.reviewRequirementsButton": "Przejrzyj instrukcje i wymagania systemowe"
-  "learning.proctoringPanel.onboardingButtonPastDue": "Indukcja wygasła"
-  "learning.outline.sequence-due": "Termin {description}"
-  "progress.certificateStatus.unverifiedBody": "Aby wygenerować certyfikat, musisz przejść weryfikację tożsamości. {idVerificationSupportLink}."
-  "progress.certificateStatus.downloadableBody": "Pochwal się swoim osiągnięciem na LinkedIn lub w swoim CV. Możesz teraz pobrać swój certyfikat i uzyskać do niego dostęp w dowolnym momencie z pulpitu nawigacyjnego i profilu studenta."
-  "courseCelebration.certificateBody.notAvailable.endDate": "Oceny końcowe i zdobyte certyfikaty będą dostępne po {endDate}."
-  "progress.certificateStatus.notPassingHeader": "Status certyfikatu"
-  "progress.certificateStatus.notPassingBody": "Aby uzyskać certyfikat konieczne jest uzyskanie pozytywnej oceny."
-  "progress.certificateStatus.inProgressHeader": "Wkrótce będzie więcej treści!"
-  "progress.certificateStatus.inProgressBody": "Wygląda na to, że w tym kursie pojawi się więcej treści w przyszłości. Śledź aktualizacje za pośrednictwem poczty elektronicznej lub sprawdź swój kurs, aby dowiedzieć się, kiedy te treści będą dostępne."
-  "progress.certificateStatus.requestableHeader": "Status certyfikatu"
-  "progress.certificateStatus.requestableBody": "Gratulacje, zakwalifikowałeś się do otrzymania certyfikatu! Aby uzyskać dostęp do certyfikatu, poproś o niego poniżej."
-  "progress.certificateStatus.requestableButton": "Poproś o certyfikat"
-  "progress.certificateStatus.unverifiedHeader": "Status certyfikatu"
-  "progress.certificateStatus.unverifiedButton": "Zweryfikować Twoją tożsamość"
-  "progress.certificateStatus.courseCelebration.verificationPending": "Twoja weryfikacja tożsamości jest w toku, a Twój certyfikat będzie dostępny po zatwierdzeniu."
-  "progress.certificateStatus.downloadableHeader": "Twój certyfikat jest dostępny!"
-  "progress.certificateStatus.viewableButton": "Zobacz mój certyfikat"
-  "progress.certificateStatus.notAvailableHeader": "Status certyfikatu"
-  "progress.certificateBody.notAvailable.endDate": "Oceny końcowe i zdobyte certyfikaty będą dostępne po {endDate}."
-  "progress.certificateStatus.upgradeHeader": "Uzyskać certyfikat"
-  "progress.certificateStatus.upgradeBody": "Jesteś w opcji audytowanej i nie kwalifikujesz się do certyfikatu. Aby zdobyć certyfikat, przełącz się na kurs zweryfikowany już dziś."
-  "progress.certificateStatus.upgradeButton": "Aktualizuj teraz"
-  "progress.certificateStatus.unverifiedHomeHeader.v2": "Zweryfikuj swoją tożsamość, aby zakwalifikować się do otrzymania certyfikatu."
-  "progress.certificateStatus.unverifiedHomeButton": "Zweryfikuj moją tożsamość"
-  "progress.certificateStatus.unverifiedHomeBody": "Aby wygenerować certyfikat dla tego kursu, musisz przejść proces weryfikacji tożsamości."
-  "progress.completion.donut.label": "Wypełniony"
-  "progress.completion.body": "Oznacza to ilość ukończonych treści kursu. Pamiętaj, że część treści mogła nie zostać jeszcze opublikowana."
-  "progress.completion.tooltip.locked": "Treść, którą ukończyłeś."
-  "progress.completion.header": "Zakończenie kursu"
-  "progress.completion.tooltip": "Treści, do których masz dostęp, a których nie ukończyłeś."
-  "progress.completion.tooltip.complete": "Zawartość zablokowana i dostępna tylko dla tych, którzy przełączą się na zweryfikowaną opcję."
-  "progress.completion.donut.percentComplete": "Ukończono {percent}% treści tego kursu."
-  "progress.completion.donut.percentIncomplete": "Nie ukończyłeś {percent}% treści tego kursu, do których masz dostęp."
-  "progress.completion.donut.percentLocked": "{percent}% zawartości tego kursu jest zablokowane i dostępne tylko dla tych, którzy przełączą się na zweryfikowaną opcję."
-  "progress.creditInformation.creditNotEligible": "Nie kwalifikujesz się już do kredytów w tym kursie. Dowiedz się więcej o {creditLink}."
-  "progress.creditInformation.creditEligible": "\nSpełniłeś wymagania kredytowe dla tego kursu. Możesz przejść do\n {dashboardLink}, aby kupić kredyty na kurs. Lub dowiedzieć się więcej na ten temat na {creditLink}."
-  "progress.creditInformation.creditPartialEligible": "Nie spełniasz jeszcze wymagań kredytowych. Dowiedz się więcej na {creditLink}."
-  "progress.creditInformation.completed": "Wypełniony"
-  "progress.creditInformation.courseCredit": "Zaliczenie kursu"
-  "progress.creditInformation.minimumGrade": "Minimalna ocena kredytowa ({minGrade}%)"
-  "progress.creditInformation.requirementsHeader": "Wymagania dotyczące zaliczenia kursu."
-  "progress.creditInformation.upcoming": "Wkrótce"
-  "progress.creditInformation.verificationFailed": "Weryfikacja nie powiodła się"
-  "progress.creditInformation.verificationSubmitted": "Weryfikacja wysłana"
-  "progress.ungradedAlert": "Aby zobaczyć postępy w nieocenionych aspektach kursu, odwiedź {outlineLink}."
-  "progress.footnotes.droppableAssignments": "Najniższa ocena {numDroppable, plural, one{# {assignmentType} score is} other{# {assignmentType} scores are}} została odrzucona."
-  "progress.assignmentType": "Typ zadania"
-  "progress.footnotes.backToContent": "Powrót do treści"
-  "progress.courseGrade.body": "To przedstawia twoją ważoną ocenę w porównaniu z oceną potrzebną do zaliczenia tego kursu."
-  "progress.courseGrade.gradeBar.altText": "Twoja obecna ocena to {currentGrade}%. Średnia ocena {passingGrade}% jest wymagana, aby zaliczyć ten kurs."
-  "progress.courseGrade.footer.generic.passing": "Obecnie zaliczasz ten kurs"
-  "progress.courseGrade.footer.nonPassing": "Aby zaliczyć ten przedmiot należy uzyskać średnią ocen {passingGrade}%."
-  "progress.courseGrade.footer.passing": "Obecnie zaliczasz ten kurs z oceną {letterGrade} ({minGrade}-{maxGrade}%)"
-  "progress.courseGrade.preview.headerLocked": "funkcja zablokowana"
-  "progress.courseGrade.preview.headerLimited": "ograniczona funkcja"
-  "progress.courseGrade.preview.header.ariaHidden": "Podgląd a"
-  "progress.courseGrade.preview.body.unlockCertificate": "Odblokuj, aby zobaczyć oceny i pracować nad certyfikatem."
-  "progress.courseGrade.partialpreview.body.unlockCertificate": "Odblokuj do pracy nad uzyskaniem certyfikatu."
-  "progress.courseGrade.preview.body.upgradeDeadlinePassed": "Minął termin przejścia na zweryfikowaną opcję w tym kursie."
-  "progress.courseGrade.preview.button.upgrade": "Aktualizuj teraz"
-  "progress.courseGrade.gradeRange.tooltip": "Przedziały ocen dla tego kursu"
-  "progress.courseOutline": "Struktura kursu"
-  "progress.courseGrade.label.currentGrade": "Twoja obecna ocena"
-  "progress.detailedGrades": "Oceny szczegółowe"
-  "progress.detailedGrades.emptyTable": "Obecnie nie masz ocenionych ocen problemów."
-  "progress.footnotes.title": "Przypis podsumowujący kwalifikacje"
-  "progress.gradeSummary.grade": "Kwalifikacja"
-  "progress.courseGrade.grades": "Oceny"
-  "progress.courseGrade.gradesAndCredit": "Oceny i kredyty"
-  "progress.courseGrade.gradeRange.Tooltip": "Informacja o zakresie not"
-  "progress.gradeSummary": "Podsumowanie kwalifikacji"
-  "progress.gradeSummary.limitedAccessExplanation": "Masz ograniczony dostęp do zadań ocenianych w ramach kontrolowanej opcji w tym kursie."
-  "progress.gradeSummary.tooltip.alt": "Informacja o streszczeniu notatki"
-  "progress.gradeSummary.tooltip.body": "Waga zadania z kursu jest określana przez instruktora. Twoja ocena ważona jest obliczana przez pomnożenie Twojej oceny przez wagę tego rodzaju zadania. Twoja ocena ważona jest tą, która jest używana do określenia, czy zaliczyłeś kurs."
-  "progress.noAcessToAssignmentType": "Nie masz dostępu do przypisań typu {assignmentType}"
-  "progress.noAcessToSubsection": "Nie masz dostępu do podsekcji {displayName}"
-  "progress.courseGrade.label.passingGrade": "ocena zaliczenia"
-  "progress.detailedGrades.problemScore.label": "Oceny problemów"
-  "progress.detailedGrades.problemScore.toggleButton": "Zmień wyniki poszczególnych problemów na {subsectionTitle}"
-  "progress.detailedGrades.overridden": "Interpunkcja sekcji została nadpisana."
-  "progress.score": "Wynik"
-  "progress.weight": "Waga"
-  "progress.weightedGrade": "Średnia ocena"
-  "progress.weightedGradeSummary": "Twoje aktualne podsumowanie punktacji ważonej"
-  "progress.header": "Twój postęp"
-  "progress.header.targetUser": "Postęp kursu dla {username}"
-  "progress.link.studio": "Wyświetl oceny w Studio"
-  "progress.relatedLinks.datesCard.description": "Kalendarz z terminami kursów i nadchodzącymi terminami zadań."
-  "progress.relatedLinks.datesCard.link": "Daktyle"
-  "progress.relatedLinks.outlineCard.description": "Przegląd treści kursu."
-  "progress.relatedLinks.outlineCard.link": "Struktura kursu"
-  "progress.relatedLinks": "Powiązane linki"
-  "datesBanner.suggestedSchedule": "Stworzyliśmy sugerowany harmonogram, który pomoże Ci osiągnąć Twoje cele. Ale nie martw się, jest elastyczny, więc możesz uczyć się we własnym tempie."
-  "datesBanner.upgradeToCompleteGradedBanner.header": "Wybierz certyfikat do odblokowania"
-  "datesBanner.upgradeToCompleteGradedBanner.body": "Kontrolujesz ten kurs, co oznacza, że ​​nie możesz brać udziału w ocenianych zadaniach. Aby ukończyć oceniane zadania w ramach tego kursu, możesz przejść na opcję certyfikowaną."
-  "datesBanner.upgradeToCompleteGradedBanner.button": "Aktualizuj teraz"
-  "datesBanner.upgradeToResetBanner.body": "Aby nadążyć i osiągnąć swoje cele, możesz zaktualizować ten kalendarz i przenieść zaległe zadania na przyszłość. Nie martw się, nie stracisz nic z tego, co już zrobiłeś, zmieniając terminy."
-  "datesBanner.upgradeToResetBanner.button": "Aktualizuj, aby zmienić daty wygaśnięcia"
-  "datesBanner.resetDatesBanner.header": "Wygląda na to, że przegapiłeś kilka ważnych terminów zgodnie z naszym sugerowanym harmonogramem."
-  "datesBanner.resetDatesBanner.body": "Aby nadążyć i osiągnąć swoje cele, możesz zaktualizować ten kalendarz i przenieść zaległe zadania na przyszłość. Nie martw się, nie stracisz nic z tego, co już zrobiłeś, zmieniając terminy."
-  "datesBanner.resetDatesBanner.button": "Zmień daty ważności"
-  "learn.navigation.course.tabs.label": "Materiały szkoleniowe"
-  "unit.bookmark.button.add.bookmark": "Dodaj stronę do ulubionych"
-  "unit.bookmark.button.remove.bookmark": "Strona z zakładkami"
-  "learning.celebration.completed": "Właśnie ukończyłeś pierwszą część kursu."
-  "learning.celebration.congrats": "Gratulacje!"
-  "learning.celebration.earned": "!Udało Ci się!"
-  "learning.celebration.emailSubject": "Mam zamiar ukończyć {title} online z {platform}!"
-  "learning.celebration.forward": "Zacząć robić"
-  "learning.celebration.goalMet": "Osiągnąłeś swój cel!"
-  "learning.celebration.keepItUp": "Tak trzymaj"
-  "learning.celebration.share": "Poświęć chwilę na świętowanie i podzielenie się swoimi postępami."
-  "learning.celebration.social": "Mam zamiar ukończyć {title} online z {platform}. Czego uczysz się?"
-  "learning.celebration.goalCongrats": "Gratulacje, osiągnąłeś swój cel nauki {nTimes} tygodniowo."
-  "learning.celebration.setGoal": "Wyznaczenie celu może pomóc {strongText} w Twoim kursie."
-  "calculator.instructions.button.label": "Instrukcje kalkulatora"
-  "calculator.instructions": "Szczegółowe informacje zob"
-  "calculator.instructions.support.title": "Centrum pomocy"
-  "calculator.instructions.useful.tips": "Pomocne wskazówki"
-  "calculator.hint1": "Użyj nawiasów (), aby wyrażenia były wyraźniejsze. Możesz używać nawiasów w innych nawiasach."
-  "calculator.hint2": "Nie używaj spacji w wyrażeniach."
-  "calculator.hint3": "W przypadku stałych wyraźnie określ mnożenie (np"
-  "calculator.hint4": "W przypadku afiksów wpisz liczbę i afiks (przedrostek lub sufiks) bez spacji. Przykład"
-  "calculator.hint5": "W przypadku funkcji wpisz nazwę funkcji, a następnie wyrażenie w nawiasach."
-  "calculator.instruction.table.to.use.heading": "Używać"
-  "calculator.instruction.table.type.heading": "Facet"
-  "calculator.instruction.table.examples.heading": "Przykłady"
-  "calculator.instruction.table.to.use.numbers": "Liczby"
-  "calculator.instruction.table.to.use.numbers.type1": "Liczby całkowite"
-  "calculator.instruction.table.to.use.numbers.type2": "Ułamki"
-  "calculator.instruction.table.to.use.numbers.type3": "Liczby dziesiętne"
-  "calculator.instruction.table.to.use.operators": "Operatorzy"
-  "calculator.instruction.table.to.use.operators.type1": "(dodaj odejmuj mnoż dzielenie)"
-  "calculator.instruction.table.to.use.operators.type2": "(wznieść się do potęgi)"
-  "calculator.instruction.table.to.use.operators.type3": "(rezystory połączone równolegle)"
-  "calculator.instruction.table.to.use.constants": "Stałe"
-  "calculator.instruction.table.to.use.affixes": "dodane"
-  "calculator.instruction.table.to.use.affixes.type": "Znak procentu (%)"
-  "calculator.instruction.table.to.use.basic.functions": "Podstawowe funkcje"
-  "calculator.instruction.table.to.use.trig.functions": "Funkcje trygonometryczne"
-  "calculator.instruction.table.to.use.scientific.notation": "Notacja naukowa"
-  "calculator.instruction.table.to.use.scientific.notation.type1": "{exponentSyntax} i wykładnik"
-  "calculator.instruction.table.to.use.scientific.notation.type2": "notacja {notationSyntax}"
-  "calculator.instruction.table.to.use.scientific.notation.type3": "{notationSyntax} i wykładnik"
-  "calculator.button.label": "Kalkulator"
-  "calculator.input.field.label": "Wejście kalkulatora"
-  "calculator.submit.button.label": "Oblicz"
-  "calculator.result.field.label": "Wynik kalkulatora"
-  "calculator.result.field.placeholder": "Wynik"
-  "notes.button.show": "Pokaż notatki"
-  "notes.button.hide": "Ukryj notatki"
-  "courseExit.catalogSearchSuggestion": "Chcesz wiedzieć więcej? {searchOurCatalogLink}, aby znaleźć więcej kursów i programów do odkrycia."
-  "courseCelebration.certificateBody.available": "\nPochwal się dzisiaj swoim osiągnięciem na LinkedIn lub w swoim CV.\nMożesz teraz pobrać swój certyfikat i uzyskać do niego dostęp w dowolnym momencie z poziomu\n{dashboardLink} i {profileLink}."
-  "courseCelebration.certificateBody.notAvailable.endDate.v2": "Ten kurs kończy się {endDate}. Końcowe oceny i zdobyte certyfikaty będą dostępne po następującej dacie {certAvailableDate}."
-  "courseCelebration.certificateBody.unverified": "Aby wygenerować certyfikat, musisz ukończyć weryfikację ID.\n{idVerificationSupportLink} teraz."
-  "courseCelebration.certificateBody.upgradable": "Jeszcze nie jest za późno na uaktualnienie. Za {price} uzyskasz dostęp do wszystkich\n ocenianych zadań z tego kursu. Po ukończeniu otrzymasz zweryfikowany certyfikat, który jest\n cennym poświadczeniem zwiększającym Twoje perspektywy zatrudnienia i awansować w swojej karierze lub możesz użyć tego certyfikatu, aby wyróżnić się w aplikacjach na studia."
-  "courseCelebration.upgradeDiscountCodePrompt": "Użyj kodu {code} przy kasie, aby uzyskać {percent}% zniżki."
-  "courseCelebration.recommendations.heading": "Rozwijaj swoje umiejętności dzięki tym kursom!"
-  "courseCelebration.recommendations.label": "Gatunek"
-  "courseCelebration.recommendations.browse_catalog": "Poznaj więcej kursów"
-  "courseCelebration.recommendations.loading_recommendations": "Zalecenia dotyczące ładowania"
-  "courseCelebration.recommendations.card.schools.label": "Uczelnie i partnerzy"
-  "courseCelebration.dashboardInfo": "Możesz uzyskać dostęp do tego kursu i jego materiałów na swoim {dashboardLink}."
-  "courseExit.programs.applyForCredit": "Poproś o kredyt"
-  "courseCelebration.certificateHeader.downloadable": "Twój certyfikat jest dostępny!"
-  "courseCelebration.certificateHeader.notAvailable": "Status Twojej kwalifikacji i certyfikatu będzie dostępny wkrótce."
-  "courseCelebration.certificateBody.notAvailable.accessCertificate": "Jeśli uzyskałeś ocenę pozytywną, certyfikat zostanie wydany automatycznie."
-  "courseCelebration.certificateHeader.unverified": "Musisz ukończyć weryfikację, aby otrzymać certyfikat."
-  "courseCelebration.certificateHeader.requestable": "Gratulacje, kwalifikujesz się do otrzymania certyfikatu!"
-  "courseCelebration.certificateHeader.upgradable": "Aktualizacja do zweryfikowanego certyfikatu"
-  "courseCelebration.certificateImage": "wzór świadectwa"
-  "courseCelebration.completedCourseHeader": "Ukończyłeś kurs."
-  "courseCelebration.congratulationsHeader": "Gratulacje!"
-  "courseCelebration.congratulationsImage": "Cztery osoby podnoszą ręce w geście świętowania"
-  "courseExit.courseInProgressDescription": "Wygląda na to, że w tym kursie pojawi się więcej treści w przyszłości. Śledź aktualizacje za pośrednictwem poczty elektronicznej lub sprawdź swój kurs, aby dowiedzieć się, kiedy te treści będą dostępne."
-  "courseExit.courseInProgressHeader": "Wkrótce będzie więcej treści!"
-  "courseExit.dashboardLink": "Panel sterowania"
-  "courseExit.endOfCourseDescription": "Niestety, w tej chwili nie możesz zdobyć certyfikatu. Aby otrzymać certyfikat, musisz uzyskać pozytywną ocenę."
-  "courseExit.endOfCourseHeader": "Dotarłeś do końca kursu!"
-  "courseExit.endOfCourseTitle": "Koniec kursu"
-  "courseExit.idVerificationSupportLink": "Więcej informacji o weryfikacji tożsamości"
-  "courseCelebration.linkedinAddToProfileButton": "Dodaj profil LinkedIn"
-  "courseExit.programs.microBachelors.learnMore": "Dowiedz się więcej o tym, jak możesz ubiegać się o kredyt z poświadczeniami MicroBachelor."
-  "courseExit.programs.microMasters.learnMore": "Dowiedz się więcej o procesie ubiegania się o tytuł magistra z certyfikatem MicroMasters."
-  "courseExit.programs.microMasters.mastersMessage": "Jeśli jesteś zainteresowany wykorzystaniem certyfikatu MicroMasters na studiach magisterskich, możesz zacząć już dziś!"
-  "learn.sequence.navigation.complete.button": "Ukończ kurs"
-  "courseExit.nextButton.endOfCourse": "Następny (oczywiście koniec)"
-  "courseExit.profileLink": "Profil"
-  "courseExit.programs.lastCourse": "Ukończyłeś ostatni kurs {title}!"
-  "courseCelebration.requestCertificateBodyText": "Aby uzyskać dostęp do certyfikatu, poproś o niego poniżej."
-  "courseCelebration.requestCertificateButton": "Poproś o certyfikat"
-  "courseExit.searchOurCatalogLink": "Przeszukaj nasz katalog"
-  "courseCelebration.shareMessage": "Podziel się swoim sukcesem w mediach społecznościowych lub przez e-mail."
-  "courseExit.social.shareCompletionMessage": "Właśnie ukończyłem {title} z {platform}!"
-  "courseExit.upgradeButton": "Aktualizuj teraz"
-  "courseExit.upgradeLink": "Ulepsz teraz"
-  "courseCelebration.verificationPending": "Twoja weryfikacja tożsamości jest w toku, a Twój certyfikat będzie dostępny po zatwierdzeniu."
-  "courseExit.verifiedCertificateSupportLink": "Więcej informacji o zweryfikowanych certyfikatach"
-  "courseCelebration.verifyIdentityButton": "Zweryfikuj ID teraz"
-  "courseCelebration.viewCertificateButton": "Zobacz mój certyfikat"
-  "courseExit.viewCourseScheduleButton": "Zobacz program kursu"
-  "courseExit.viewCoursesButton": "Zobacz moje kursy"
-  "courseExit.viewGradesButton": "Zobacz oceny"
-  "courseExit.programCompletion.dashboardMessage": "Aby zobaczyć status swojego certyfikatu, przejdź do sekcji Programy swojego {programLink}."
-  "courseExit.upgradeFootnote": "Dostęp do tego kursu i jego materiałów będzie dostępny w Twoim panelu głównym do {expirationDate}. Aby przedłużyć dostęp, {upgradeLink}."
-  "learn.course.license.allRightsReserved.text": "Wszelkie prawa zastrzeżone"
-  "learn.course.license.creativeCommons.terms.preamble": "Treści objęte licencją Creative Commons, z następującymi warunkami"
-  "learn.course.license.creativeCommons.terms.by": "Atrybucja"
-  "learn.course.license.creativeCommons.terms.nc": "Brak reklamy"
-  "learn.course.license.creativeCommons.terms.nd": "Nie instrumenty pochodne"
-  "learn.course.license.creativeCommons.terms.sa": "Podziel się jednakowo"
-  "learn.course.license.creativeCommons.terms.zero": "Bez warunków"
-  "learn.course.license.creativeCommons.text": "Niektóre prawa zastrzeżone"
-  "learn.breadcrumb.navigation.course.home": "Gatunek"
-  "notification.tray.container": "Powiadomienie na pasku bocznym"
-  "notification.open.button": "Pokaż powiadomienie na pasku bocznym"
-  "notification.close.button": "Zamknij tacę powiadomień"
-  "responsive.close.notification": "Powrót do kursu"
-  "notification.tray.title": "Powiadomienia"
-  "notification.tray.no.message": "W tej chwili nie masz nowych powiadomień."
-  "learn.contentLock.content.locked": "Zablokowana zawartość"
-  "learn.contentLock.complete.prerequisite": "Musisz spełnić warunek wstępny"
-  "learn.contentLock.goToSection": "Przejdź do sekcji wymagań wstępnych"
-  "learn.hiddenAfterDue.gradeAvailable": "Jeśli wykonałeś to zadanie, twoja ocena będzie dostępna na {progressPage}."
-  "learn.hiddenAfterDue.header": "Termin wykonania tego zadania minął."
-  "learn.hiddenAfterDue.description": "Ponieważ minął termin wykonania, to zadanie nie jest już dostępne."
-  "learn.hiddenAfterDue.progressPage": "Strona Postępu"
-  "learn.honorCode.content": "Uczciwość i rzetelność akademicka są ważne dla {siteName} oraz instytucji oferujących kursy i programy w witrynie {siteName}. KlikającZgadzam się poniżej, potwierdzam, że przeczytałem, rozumiem i będę przestrzegać {link} witryny {siteName}."
-  "learn.honorCode.name": "Kodeks honorowy"
-  "learn.honorCode.cancel": "Anulować"
-  "learn.honorCode.agree": "Zgadzam się "
-  "learn.lockPaywall.title": "Zadania oceniane są zablokowane"
-  "learn.lockPaywall.content": "Przełącz na zweryfikowaną opcję, aby uzyskać dostęp do takich zablokowanych funkcji i jak najlepiej wykorzystać swój kurs."
-  "learn.lockPaywall.content.pastExpiration": "Okres aktualizacji tego kursu upłynął. Aby dokonać aktualizacji, zapisz się na następną dostępną sesję."
-  "learn.lockPaywall.courseDetails": "Wyświetl szczegóły kursu"
-  "learn.lockPaywall.example.alt": "Przykładowy certyfikat"
-  "learn.lockPaywall.list.intro": "Kiedy przełączysz się na zweryfikowaną opcję, ty"
-  "learn.header.h2.placeholder": "Wypowiedzi poziomu 2 mogą być tworzone przez organizatorów kursów w przyszłości."
-  "learn.course.load.failure": "Wystąpił błąd podczas ładowania tego kursu."
-  "learn.loading.honor.codk": "Ładowanie wiadomości z kodem honorowym..."
-  "learn.loading.content.lock": "Ładowanie wiadomości o zablokowanej treści..."
-  "learn.loading.learning.sequence": "Ładowanie sekwencji uczenia..."
-  "learn.sequence.no.content": "Tutaj nie ma treści."
-  "learn.sequence.navigation.next.button": "Następny"
-  "learn.sequence.navigation.next.up.button": "Następny"
-  "learn.sequence.navigation.previous.button": "Poprzedni"
-  "learn.course.sequence.navigation.mobile.menu": "{bieżący} z {ogółem}"
-  "discussions.sidebar.title": "Dyskusje"
-  "discussions.sidebar.open.button": "Pokaż pasek dyskusji"
-  "learn.redirect.interstitial.message": "Przekierowanie..."
-  "learn.loading.error": "Błąd"
-  "learning.celebration.emailBody": "Jak poświęcasz swój czas na naukę?"
-  "learning.social.shareEmail": "Podziel się swoimi postępami przez e-mail."
-  "learning.social.shareService": "Podziel się swoimi postępami w {service}."
-  "general.altText.close": "Zamknąć"
-  "learning.logistration.register": "Zameldować się"
-  "learning.logistration.login": "Zaloguj sie"
-  "general.signIn.sentenceCase": "Zaloguj sie"
-  "learn.course.tabs.navigation.overflow.menu": "Plus..."
-  "learning.offer.screenReaderPrices": "Cena oryginalna"
-  "learning.upgradeButton.screenReaderInlinePrices": "Cena oryginalna"
-  "learning.upgradeButton.buttonText": "Opcja zweryfikowana {pricing}"
-  "learning.upgradeNowButton.buttonText": "Przełącz, aby zapłacić za opcję {pricing}"
-  "learning.generic.upgradeNotification.expirationAccessLoss.progress": "w tym wszelkie postępy"
-  "learning.generic.upgradeNotification.expirationVerifiedCert.benefits": "korzyści ze zmiany"
-  "learning.generic.upgradeNotification.expirationAccessLoss": "Utracisz cały dostęp do tego kursu, {w tymAnyProgress}, w dniu {date}."
-  "learning.generic.upgradeNotification.expirationVerifiedCert": "Aktualizacja do wersji zweryfikowanej umożliwia uzyskanie zweryfikowanego certyfikatu i uzyskanie dostępu do wielu funkcji. Dowiedz się więcej o {benefitsOfUpgrading}."
-  "learning.generic.upgradeNotification.pastExpiration.content": "Okres aktualizacji tego kursu upłynął. Aby dokonać aktualizacji, zapisz się na następną dostępną sesję."
-  "learning.generic.upgradeNotification.expirationDays": "Pozostało {dayCount, number} {dayCount, plural, \none {day}\nother {dni}}"
-  "learning.generic.upgradeNotification.expirationHours": "Pozostało {hourCount, number} {hourCount, plural,\none {hour}\nother {hours}}"
-  "learning.generic.upgradeNotification.expirationMinutes": "Pozostała mniej niż 1 godzina"
-  "learning.generic.upgradeNotification.expiration": "Dostęp do kursu wygaśnie {date}"
-  "learning.generic.upgradeNotification.pastExpiration.banner": "Okres aktualizacji upłynął {date}"
-  "learning.generic.upgradeNotification.firstTimeLearnerDiscount": "{percentage}% zniżki powitalnej dla nowych studentów"
-  "learning.generic.upgradeNotification.accessExpiration": "Przełącz na zweryfikowaną opcję"
-  "learning.generic.upgradeNotification.accessExpirationUrgent": "Wygaśnięcie dostępu do kursu"
-  "learning.generic.upgradeNotification.accessExpirationPast": "Wygaśnięcie dostępu do kursu"
-  "learning.generic.upgradeNotification.pursueAverifiedCertificate": "Uzyskaj zweryfikowany certyfikat"
-  "learning.generic.upgradeNotification.code": "Użyj kodu {kod} przy kasie"
-  "learning.generic.upsell.verifiedCertBullet.verifiedCert": "certyfikat zweryfikowany"
-  "learning.generic.upsell.verifiedCertBullet": "Zdobądź {verifiedCertLink} ukończenia, aby udostępnić je w swoim CV"
-  "learning.generic.upsell.unlockGradedBullet.gradedAssignments": "zadania oceniane"
-  "learning.generic.upsell.unlockGradedBullet": "Odblokowuje dostęp do wszystkich aktywności na kursie, w tym {gradedAssignmentsInBoldText}"
-  "learning.generic.upsell.fullAccessBullet.fullAccess": "Pełny dostęp"
-  "learning.generic.upsell.fullAccessBullet": "{fullAccessInBoldText} do treści i materiałów kursu, nawet po zakończeniu kursu"
-  "learning.generic.upsell.supportMissionBullet.mission": "misja"
-  "learning.generic.upsell.supportMissionBullet": "Wspieraj naszą {missionInBoldText} w {siteName}"
-  "masquerade-widget.userName.error.generic": "Wystąpił błąd. Proszę spróbować ponownie."
-  "masquerade-widget.userName.input.placeholder": "Nazwa użytkownika lub email"
-  "masquerade-widget.userName.input.label": "Udawaj, że jesteś tym użytkownikiem"
-  "tours.abandonTour.launchTourCheckpoint.body": "Czujesz się zagubiony? Rozpocznij wycieczkę w dowolnym momencie, aby uzyskać kilka szybkich wskazówek, jak najlepiej wykorzystać to doświadczenie."
-  "tours.sequenceNavigationCheckpoint.body": "Górny pasek kursu umożliwia łatwe przeskakiwanie do różnych sekcji i pokazuje, co ma nadejść."
-  "tours.existingUserTour.launchTourCheckpoint.body": "Niedawno dodaliśmy kilka nowych funkcji do kursu. Potrzebujesz pomocy w rozglądaniu się? Wybierz się na wycieczkę, aby dowiedzieć się więcej."
-  "tours.button.dismiss": "Wyrzucać"
-  "tours.button.next": "Następny"
-  "tours.button.okay": "Dobra"
-  "tours.button.beginTour": "Rozpocząć wycieczkę"
-  "tours.button.launchTour": "wycieczka startowa"
-  "tours.newUserModal.body": "Wybierzmy się na krótką wycieczkę po witrynie {siteName}, aby w pełni wykorzystać swój kurs."
-  "tours.newUserModal.title.welcome": "Witamy Państwa"
-  "tours.button.skipForNow": "Pomiń to na razie"
-  "tours.datesCheckpoint.body": "Ważne daty mogą pomóc Ci być na bieżąco."
-  "tours.datesCheckpoint.title": "Bądź na bieżąco z kluczowymi datami"
-  "tours.outlineCheckpoint.body": "Możesz przeglądać sekcje kursu, korzystając z poniższego konspektu."
-  "tours.outlineCheckpoint.title": "Idź na kurs!"
-  "tours.tabNavigationCheckpoint.body": "Zakładki te mogą służyć do uzyskiwania dostępu do innych materiałów kursu, takich jak postępy, program nauczania itp."
-  "tours.tabNavigationCheckpoint.title": "Dodatkowe zasoby kursu"
-  "tours.upgradeCheckpoint.body": "Pracuj nad uzyskaniem certyfikatu i uzyskaj pełny dostęp do materiałów szkoleniowych. Zaktualizuj teraz!"
-  "tours.upgradeCheckpoint.title": "Odblokuj swój kurs"
-  "tours.weeklyGoalsCheckpoint.body": "Wyznaczenie celu zwiększa szanse na ukończenie kursu."
-  "tours.weeklyGoalsCheckpoint.title": "Wyznacz cel kursu"
-  "tours.newUserModal.title": "{welcome} kurs na {siteName}!"
-  "learning.effortEstimation.combinedEstimate": "{minuty} + {czynności}"
-  "learning.effortEstimation.activities": "{liczba aktywności, liczba mnoga, jedna {# czynności} wiele {# czynności} inne {# czynności}}"
-  "learning.effortEstimation.minutesAbbreviated": "{minuteCount, liczba mnoga, jeden {# minuty} wiele {# min} other {# min}}"
-  "learning.effortEstimation.minutesFull": "{minuteCount, liczba mnoga, jeden {# minut} wiele {# minut} other {# minut}}"
-  "learning.streakCelebration.congratulations": "Gratulacje!"
-  "learning.streakCelebration.body": "Tak trzymaj, jesteś na fali!"
-  "learning.streakCelebration.button": "Tak trzymaj"
-  "learning.streakCelebration.buttonSrOnly": "Zamknij modal i kontynuuj"
-  "learning.streakCelebration.buttonAA759": "Kontynuuj kurs"
-  "learning.streakCelebration.header": "dni z rzędu"
-  "learning.streakCelebration.factoidABoldedSection": "mają 20 razy większe szanse na zaliczenie kursu"
-  "learning.streakCelebration.factoidBBoldedSection": "wykonują średnio 5 razy więcej treści kursu"
-  "learning.streakCelebration.streakDiscountMessage": "Odblokowałeś {percent}% zniżki na uaktualnienie tego kursu, tylko przez ograniczony czas."
-  "learning.streakcelebration.factoida": "Użytkownicy, którzy uczą się {streak_length} dni z rzędu {bolded_section} niż ci, którzy tego nie robią."
-  "learning.streakcelebration.factoidb": "Użytkownicy, którzy uczą się {streak_length} dni z rzędu {bolded_section} vs. ci, którzy tego nie robią."
-  "learning.streakCelebration.streakCelebrationCouponEndDateMessage": "Data zakonczenia}."
-  "learning.loading.failure": "Wystąpił błąd podczas ładowania tego kursu."
+  "learning.accessExpiration.deadline": "Aktualizuj do {date}, aby uzyskać nieograniczony dostęp do kursu tak długo, jak istnieje on na stronie.",
+  "learning.accessExpiration.header": "Dostęp do bezpłatnego udziału w kursie wygasa {date}",
+  "learning.accessExpiration.body": "Utracisz cały dostęp do tego kursu, w tym swoje postępy, w dniu {date}.",
+  "instructorToolbar.pageBanner.courseHasExpired": "Uczeń nie ma już dostępu do tego kursu. Jego dostęp wygasł {date}.",
+  "learning.accessExpiration.upgradeNow": "Aktualizuj teraz",
+  "learning.activeEnterprise.alert": "{changeActiveEnterprise}.",
+  "learning.activeEnterprise.change.alert": "zmień firmę teraz",
+  "learning.outline.alert.start.short": "Kurs rozpoczyna się {timeRemaining} o {courseStartTime}.",
+  "learning.outline.alert.end.long": "Ten kurs zakończy się za {timeRemaining} w dniu {courseEndDate}.",
+  "learning.outline.alert.end.calendar": "Nie zapomnij dodać przypomnienia w kalendarzu.",
+  "instructorToolbar.pageBanner.courseHasNotStarted": "Ten student nie ma jeszcze dostępu do tego kursu. Kurs rozpoczyna się {date}.",
+  "learning.enrollment.alert": "Aby zobaczyć zawartość kursu, musisz być zapisany na kurs.",
+  "learning.staff.enrollment.alert": "Przeglądasz ten kurs jako instruktor i nie jesteś zapisany.",
+  "learning.enrollment.enrollNow.Inline": "Zapisz się teraz",
+  "learning.enrollment.enrollNow.Sentence": "Zapisz się teraz.",
+  "learning.enrollment.success": "Pomyślnie zapisałeś się na ten kurs!",
+  "account-activation.alert.button": "Kontynuuj do {siteName}",
+  "account-activation.alert.message": "Wysłaliśmy wiadomość e-mail na adres {boldEmail} z linkiem aktywującym Twoje konto. Nie możesz go znaleźć? Sprawdź folder ze spamem lub\n {sendEmailTag}.",
+  "account-activation.resend.link": "ponownie wyślij e-mail",
+  "learning.logistration.alert": "Aby wyświetlić treść kursu, {signIn} lub {register}.",
+  "account-activation.alert.title": "Aktywuj swoje konto, aby móc ponownie się połączyć",
+  "learn.sequence.entranceExamTextNotPassing": "Aby uzyskać dostęp do materiałów szkoleniowych, musisz uzyskać na tym egzaminie co najmniej {entranceExamMinimumScorePct}% lub więcej. Twój aktualny wynik to {entranceExamCurrentScore}%.",
+  "learn.sequence.entranceExamTextPassed": "Twój wynik to {entranceExamCurrentScore}%. Zdałeś egzamin wstępny.",
+  "learning.dates.badge.completed": "Wypełniony",
+  "learning.dates.badge.dueNext": "Następny termin ważności",
+  "learning.dates.badge.pastDue": "Pokonany",
+  "learning.dates.title": "Ważne daty",
+  "learning.dates.badge.today": "Dziś",
+  "learning.dates.badge.unreleased": "Jeszcze nie wypuszczony",
+  "learning.dates.badge.verifiedOnly": "tylko zweryfikowane",
+  "learning.goals.unsubscribe.contact": "skontaktuj się z zespołem wsparcia edX",
+  "learning.goals.unsubscribe.description": "Nie będziesz już otrzymywać e-maili z przypomnieniem o celu kursu {courseTitle}.",
+  "learning.goals.unsubscribe.errorHeader": "Coś poszło nie tak",
+  "learning.goals.unsubscribe.goToDashboard": "Przejdź do panelu głównego",
+  "learning.goals.unsubscribe.header": "Anulowałeś subskrypcję przypomnień o celach.",
+  "learning.goals.unsubscribe.loading": "Rezygnacja z subskrypcji...",
+  "learning.goals.unsubscribe.errorDescription": "Nie można było anulować subskrypcji wiadomości e-mail z przypomnieniem o celu. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną {contactSupport}",
+  "learning.outline.alert.cert.earnedNotAvailable": "Ten kurs kończy się {courseEndDateFormatted}. Oceny końcowe i zdobyte certyfikaty będą dostępne po tej dacie",
+  "cert.alert.earned.unavailable.header.v2": "Status Twojej kwalifikacji i certyfikatu będzie dostępny wkrótce.",
+  "cert.alert.earned.ready.header": "Gratulacje! Twój certyfikat jest gotowy.",
+  "cert.alert.notPassing.header": "Nie kwalifikujesz się jeszcze do otrzymania certyfikatu",
+  "cert.alert.notPassing.button": "Zobacz oceny",
+  "learning.outline.alert.end.short": "Ten kurs kończy się za {timeRemaining} o {courseEndTime}.",
+  "alert.enroll": " aby uzyskać dostęp do pełnego kursu.",
+  "learning.privateCourse.signInOrRegister": "{sign} lub {register}, a następnie zapisz się na ten kurs.",
+  "learning.outline.alert.scheduled-content.heading": "Wkrótce będzie więcej treści!",
+  "learning.outline.alert.scheduled-content.body": "Ten kurs będzie zawierał więcej treści w przyszłości. Śledź aktualizacje e-mail lub sprawdzaj ponownie ten kurs, aby uzyskać aktualizacje.",
+  "learning.outline.alert.scheduled-content.button": "Zobacz program kursu",
+  "learning.outline.dates.all": "Zobacz wszystkie terminy kursów",
+  "learning.outline.goalButton.casual.text": "1 dzień w tygodniu",
+  "learning.outline.goalButton.screenReader.text": "Zwykły ",
+  "learning.outline.certificateAlt": "Przykładowy certyfikat",
+  "learning.outline.collapseAll": "Zwiń wszystko",
+  "learning.outline.completedAssignment": "Wypełniony",
+  "learning.outline.completedSection": "Sekcja zakończona",
+  "learning.outline.dates": "Ważne daty",
+  "learning.outline.editGoal": "Edytuj cel",
+  "learning.outline.expandAll": "Rozwiń wszystkie",
+  "learning.outline.goal": "Bramka",
+  "learning.outline.goalReminderDetail": "Jeśli zauważymy, że nie jesteś jeszcze blisko osiągnięcia celu, wyślemy Ci e-mail z przypomnieniem.",
+  "learning.outline.goalUnsure": "Nie jestem jeszcze pewny",
+  "learning.outline.handouts": "Materiały szkoleniowe",
+  "learning.outline.incompleteAssignment": "Niekompletny",
+  "learning.outline.incompleteSection": "Niekompletna sekcja",
+  "learning.outline.goalButton.intense.text": "5 dni w tygodniu",
+  "learning.outline.goalButton.intense.title": "Intensywny",
+  "learning.outline.learnMore": "Ucz się więcej",
+  "learning.outline.altText.openSection": "Otwarty",
+  "learning.proctoringPanel.header": "Ten kurs zawiera egzaminy nadzorowane",
+  "learning.outline.goalButton.regular.text": "3 dni w tygodniu",
+  "learning.outline.goalButton.regular.title": "Regularny",
+  "learning.outline.resumeBlurb": "Rozpocznij od miejsca, w którym skończyłeś",
+  "learning.outline.resume": "Kontynuuj kurs",
+  "learning.outline.setGoal": "Aby rozpocząć, ustal cel kursu, wybierając opcję poniżej, która najlepiej opisuje Twój plan nauki.",
+  "learning.outline.setGoalReminder": "Ustaw przypomnienie o celu",
+  "learning.outline.goalButton.casual.title": "Ustaw styl celu uczenia się",
+  "learning.outline.setWeeklyGoal": "Ustaw tygodniowy cel nauki",
+  "learning.outline.setWeeklyGoalDetail": "Wyznaczenie celu motywuje do ukończenia kursu. Zawsze możesz zmienić cel.",
+  "learning.outline.start": "Rozpocznij kurs",
+  "learning.outline.startBlurb": "Rozpocznij kurs już dziś",
+  "learning.outline.tools": "Narzędzia Kursu",
+  "learning.outline.upgradeButton": "Aktualizacja ({symbol}{cena})",
+  "learning.outline.upgradeTitle": "Uzyskaj zweryfikowany certyfikat",
+  "learning.outline.welcomeMessage": "Wiadomość powitalna",
+  "learning.outline.welcomeMessageShowMoreButton": "Pokaż więcej",
+  "learning.outline.welcomeMessageShowLessButton": "Pokaż mniej",
+  "learning.outline.goalWelcome": "Witamy w",
+  "learning.proctoringPanel.status.notStarted": "Nie rozpoczęła",
+  "learning.proctoringPanel.status.started": "Początek",
+  "learning.proctoringPanel.status.submitted": "Wysłać",
+  "learning.proctoringPanel.status.verified": "zweryfikowany",
+  "learning.proctoringPanel.status.rejected": "Odrzucony",
+  "learning.proctoringPanel.status.error": "Błąd",
+  "learning.proctoringPanel.status.otherCourseApproved": "Zatwierdzony w innym kursie",
+  "learning.proctoringPanel.status.expiringSoon": "wygasa wkrótce",
+  "learning.proctoringPanel.status": "Obecny stan integracji",
+  "learning.proctoringPanel.message.notStarted": "Nie zacząłeś egzaminu integracyjnego.",
+  "learning.proctoringPanel.message.started": "Rozpocząłeś egzamin integracyjny.",
+  "learning.proctoringPanel.message.submitted": "Wysłałeś swój egzamin integracyjny.",
+  "learning.proctoringPanel.message.verified": "Twój egzamin wstępny został zdany na tym kursie.",
+  "learning.proctoringPanel.message.rejected": "Twój egzamin integracyjny został odrzucony. Spróbuj ponownie przeprowadzić integrację.",
+  "learning.proctoringPanel.message.error": "Wystąpił błąd podczas testu integracji. Spróbuj ponownie integracji.",
+  "learning.proctoringPanel.message.otherCourseApproved": "Twój egzamin wstępny został zdany na innym kursie.",
+  "learning.proctoringPanel.detail.otherCourseApproved": "Jeśli Twoje urządzenie uległo zmianie, zalecamy przystąpienie do egzaminu wstępnego na ten kurs, aby upewnić się, że Twoja konfiguracja nadal spełnia wymagania egzaminu nadzorowanego.",
+  "learning.proctoringPanel.message.expiringSoon": "Twój profil wpisu został zatwierdzony w innym kursie. Jednak twój status wpisu wkrótce wygaśnie. Proszę ponownie ukończyć proces wpisu, aby upewnić się, że możesz nadal przystępować do egzaminów nadzorowanych.,",
+  "learning.proctoringPanel.generalInfo": "Przed przystąpieniem do egzaminów nadzorowanych musisz ukończyć proces wdrażania.",
+  "learning.proctoringPanel.generalInfoSubmitted": "Twój przesłany profil jest w trakcie sprawdzania.",
+  "learning.proctoringPanel.generalTime": "Weryfikacja profilu logowania może potrwać dłużej niż 2 dni robocze.",
+  "learning.proctoringPanel.onboardingButton": "Pełna integracja",
+  "learning.proctoringPanel.onboardingPracticeButton": "Zobacz egzamin wstępny",
+  "learning.proctoringPanel.onboardingButtonNotOpen": "Otwarcie integracji",
+  "learning.proctoringPanel.reviewRequirementsButton": "Przejrzyj instrukcje i wymagania systemowe",
+  "learning.proctoringPanel.onboardingButtonPastDue": "Indukcja wygasła",
+  "learning.outline.sequence-due": "Termin {description}",
+  "progress.certificateStatus.unverifiedBody": "Aby wygenerować certyfikat, musisz przejść weryfikację tożsamości. {idVerificationSupportLink}.",
+  "progress.certificateStatus.downloadableBody": "Pochwal się swoim osiągnięciem na LinkedIn lub w swoim CV. Możesz teraz pobrać swój certyfikat i uzyskać do niego dostęp w dowolnym momencie z pulpitu nawigacyjnego i profilu studenta.",
+  "courseCelebration.certificateBody.notAvailable.endDate": "Oceny końcowe i zdobyte certyfikaty będą dostępne po {endDate}.",
+  "progress.certificateStatus.notPassingHeader": "Status certyfikatu",
+  "progress.certificateStatus.notPassingBody": "Aby uzyskać certyfikat konieczne jest uzyskanie pozytywnej oceny.",
+  "progress.certificateStatus.inProgressHeader": "Wkrótce będzie więcej treści!",
+  "progress.certificateStatus.inProgressBody": "Wygląda na to, że w tym kursie pojawi się więcej treści w przyszłości. Śledź aktualizacje za pośrednictwem poczty elektronicznej lub sprawdź swój kurs, aby dowiedzieć się, kiedy te treści będą dostępne.",
+  "progress.certificateStatus.requestableHeader": "Status certyfikatu",
+  "progress.certificateStatus.requestableBody": "Gratulacje, zakwalifikowałeś się do otrzymania certyfikatu! Aby uzyskać dostęp do certyfikatu, poproś o niego poniżej.",
+  "progress.certificateStatus.requestableButton": "Poproś o certyfikat",
+  "progress.certificateStatus.unverifiedHeader": "Status certyfikatu",
+  "progress.certificateStatus.unverifiedButton": "Zweryfikować Twoją tożsamość",
+  "progress.certificateStatus.courseCelebration.verificationPending": "Twoja weryfikacja tożsamości jest w toku, a Twój certyfikat będzie dostępny po zatwierdzeniu.",
+  "progress.certificateStatus.downloadableHeader": "Twój certyfikat jest dostępny!",
+  "progress.certificateStatus.viewableButton": "Zobacz mój certyfikat",
+  "progress.certificateStatus.notAvailableHeader": "Status certyfikatu",
+  "progress.certificateBody.notAvailable.endDate": "Oceny końcowe i zdobyte certyfikaty będą dostępne po {endDate}.",
+  "progress.certificateStatus.upgradeHeader": "Uzyskać certyfikat",
+  "progress.certificateStatus.upgradeBody": "Jesteś w opcji audytowanej i nie kwalifikujesz się do certyfikatu. Aby zdobyć certyfikat, przełącz się na kurs zweryfikowany już dziś.",
+  "progress.certificateStatus.upgradeButton": "Aktualizuj teraz",
+  "progress.certificateStatus.unverifiedHomeHeader.v2": "Zweryfikuj swoją tożsamość, aby zakwalifikować się do otrzymania certyfikatu.",
+  "progress.certificateStatus.unverifiedHomeButton": "Zweryfikuj moją tożsamość",
+  "progress.certificateStatus.unverifiedHomeBody": "Aby wygenerować certyfikat dla tego kursu, musisz przejść proces weryfikacji tożsamości.",
+  "progress.completion.donut.label": "Wypełniony",
+  "progress.completion.body": "Oznacza to ilość ukończonych treści kursu. Pamiętaj, że część treści mogła nie zostać jeszcze opublikowana.",
+  "progress.completion.tooltip.locked": "Treść, którą ukończyłeś.",
+  "progress.completion.header": "Zakończenie kursu",
+  "progress.completion.tooltip": "Treści, do których masz dostęp, a których nie ukończyłeś.",
+  "progress.completion.tooltip.complete": "Zawartość zablokowana i dostępna tylko dla tych, którzy przełączą się na zweryfikowaną opcję.",
+  "progress.completion.donut.percentComplete": "Ukończono {percent}% treści tego kursu.",
+  "progress.completion.donut.percentIncomplete": "Nie ukończyłeś {percent}% treści tego kursu, do których masz dostęp.",
+  "progress.completion.donut.percentLocked": "{percent}% zawartości tego kursu jest zablokowane i dostępne tylko dla tych, którzy przełączą się na zweryfikowaną opcję.",
+  "progress.creditInformation.creditNotEligible": "Nie kwalifikujesz się już do kredytów w tym kursie. Dowiedz się więcej o {creditLink}.",
+  "progress.creditInformation.creditEligible": "\nSpełniłeś wymagania kredytowe dla tego kursu. Możesz przejść do\n {dashboardLink}, aby kupić kredyty na kurs. Lub dowiedzieć się więcej na ten temat na {creditLink}.",
+  "progress.creditInformation.creditPartialEligible": "Nie spełniasz jeszcze wymagań kredytowych. Dowiedz się więcej na {creditLink}.",
+  "progress.creditInformation.completed": "Wypełniony",
+  "progress.creditInformation.courseCredit": "Zaliczenie kursu",
+  "progress.creditInformation.minimumGrade": "Minimalna ocena kredytowa ({minGrade}%)",
+  "progress.creditInformation.requirementsHeader": "Wymagania dotyczące zaliczenia kursu.",
+  "progress.creditInformation.upcoming": "Wkrótce",
+  "progress.creditInformation.verificationFailed": "Weryfikacja nie powiodła się",
+  "progress.creditInformation.verificationSubmitted": "Weryfikacja wysłana",
+  "progress.ungradedAlert": "Aby zobaczyć postępy w nieocenionych aspektach kursu, odwiedź {outlineLink}.",
+  "progress.footnotes.droppableAssignments": "Najniższa ocena {numDroppable, plural, one{# {assignmentType} score is} other{# {assignmentType} scores are}} została odrzucona.",
+  "progress.assignmentType": "Typ zadania",
+  "progress.footnotes.backToContent": "Powrót do treści",
+  "progress.courseGrade.body": "To przedstawia twoją ważoną ocenę w porównaniu z oceną potrzebną do zaliczenia tego kursu.",
+  "progress.courseGrade.gradeBar.altText": "Twoja obecna ocena to {currentGrade}%. Średnia ocena {passingGrade}% jest wymagana, aby zaliczyć ten kurs.",
+  "progress.courseGrade.footer.generic.passing": "Obecnie zaliczasz ten kurs",
+  "progress.courseGrade.footer.nonPassing": "Aby zaliczyć ten przedmiot należy uzyskać średnią ocen {passingGrade}%.",
+  "progress.courseGrade.footer.passing": "Obecnie zaliczasz ten kurs z oceną {letterGrade} ({minGrade}-{maxGrade}%)",
+  "progress.courseGrade.preview.headerLocked": "funkcja zablokowana",
+  "progress.courseGrade.preview.headerLimited": "ograniczona funkcja",
+  "progress.courseGrade.preview.header.ariaHidden": "Podgląd a",
+  "progress.courseGrade.preview.body.unlockCertificate": "Odblokuj, aby zobaczyć oceny i pracować nad certyfikatem.",
+  "progress.courseGrade.partialpreview.body.unlockCertificate": "Odblokuj do pracy nad uzyskaniem certyfikatu.",
+  "progress.courseGrade.preview.body.upgradeDeadlinePassed": "Minął termin przejścia na zweryfikowaną opcję w tym kursie.",
+  "progress.courseGrade.preview.button.upgrade": "Aktualizuj teraz",
+  "progress.courseGrade.gradeRange.tooltip": "Przedziały ocen dla tego kursu",
+  "progress.courseOutline": "Struktura kursu",
+  "progress.courseGrade.label.currentGrade": "Twoja obecna ocena",
+  "progress.detailedGrades": "Oceny szczegółowe",
+  "progress.detailedGrades.emptyTable": "Obecnie nie masz ocenionych ocen problemów.",
+  "progress.footnotes.title": "Przypis podsumowujący kwalifikacje",
+  "progress.gradeSummary.grade": "Kwalifikacja",
+  "progress.courseGrade.grades": "Oceny",
+  "progress.courseGrade.gradesAndCredit": "Oceny i kredyty",
+  "progress.courseGrade.gradeRange.Tooltip": "Informacja o zakresie not",
+  "progress.gradeSummary": "Podsumowanie kwalifikacji",
+  "progress.gradeSummary.limitedAccessExplanation": "Masz ograniczony dostęp do zadań ocenianych w ramach kontrolowanej opcji w tym kursie.",
+  "progress.gradeSummary.tooltip.alt": "Informacja o streszczeniu notatki",
+  "progress.gradeSummary.tooltip.body": "Waga zadania z kursu jest określana przez instruktora. Twoja ocena ważona jest obliczana przez pomnożenie Twojej oceny przez wagę tego rodzaju zadania. Twoja ocena ważona jest tą, która jest używana do określenia, czy zaliczyłeś kurs.",
+  "progress.noAcessToAssignmentType": "Nie masz dostępu do przypisań typu {assignmentType}",
+  "progress.noAcessToSubsection": "Nie masz dostępu do podsekcji {displayName}",
+  "progress.courseGrade.label.passingGrade": "ocena zaliczenia",
+  "progress.detailedGrades.problemScore.label": "Oceny problemów",
+  "progress.detailedGrades.problemScore.toggleButton": "Zmień wyniki poszczególnych problemów na {subsectionTitle}",
+  "progress.detailedGrades.overridden": "Interpunkcja sekcji została nadpisana.",
+  "progress.score": "Wynik",
+  "progress.weight": "Waga",
+  "progress.weightedGrade": "Średnia ocena",
+  "progress.weightedGradeSummary": "Twoje aktualne podsumowanie punktacji ważonej",
+  "progress.header": "Twój postęp",
+  "progress.header.targetUser": "Postęp kursu dla {username}",
+  "progress.link.studio": "Wyświetl oceny w Studio",
+  "progress.relatedLinks.datesCard.description": "Kalendarz z terminami kursów i nadchodzącymi terminami zadań.",
+  "progress.relatedLinks.datesCard.link": "Daktyle",
+  "progress.relatedLinks.outlineCard.description": "Przegląd treści kursu.",
+  "progress.relatedLinks.outlineCard.link": "Struktura kursu",
+  "progress.relatedLinks": "Powiązane linki",
+  "datesBanner.suggestedSchedule": "Stworzyliśmy sugerowany harmonogram, który pomoże Ci osiągnąć Twoje cele. Ale nie martw się, jest elastyczny, więc możesz uczyć się we własnym tempie.",
+  "datesBanner.upgradeToCompleteGradedBanner.header": "Wybierz certyfikat do odblokowania",
+  "datesBanner.upgradeToCompleteGradedBanner.body": "Kontrolujesz ten kurs, co oznacza, że ​​nie możesz brać udziału w ocenianych zadaniach. Aby ukończyć oceniane zadania w ramach tego kursu, możesz przejść na opcję certyfikowaną.",
+  "datesBanner.upgradeToCompleteGradedBanner.button": "Aktualizuj teraz",
+  "datesBanner.upgradeToResetBanner.body": "Aby nadążyć i osiągnąć swoje cele, możesz zaktualizować ten kalendarz i przenieść zaległe zadania na przyszłość. Nie martw się, nie stracisz nic z tego, co już zrobiłeś, zmieniając terminy.",
+  "datesBanner.upgradeToResetBanner.button": "Aktualizuj, aby zmienić daty wygaśnięcia",
+  "datesBanner.resetDatesBanner.header": "Wygląda na to, że przegapiłeś kilka ważnych terminów zgodnie z naszym sugerowanym harmonogramem.",
+  "datesBanner.resetDatesBanner.body": "Aby nadążyć i osiągnąć swoje cele, możesz zaktualizować ten kalendarz i przenieść zaległe zadania na przyszłość. Nie martw się, nie stracisz nic z tego, co już zrobiłeś, zmieniając terminy.",
+  "datesBanner.resetDatesBanner.button": "Zmień daty ważności",
+  "learn.navigation.course.tabs.label": "Materiały szkoleniowe",
+  "unit.bookmark.button.add.bookmark": "Dodaj stronę do ulubionych",
+  "unit.bookmark.button.remove.bookmark": "Strona z zakładkami",
+  "learning.celebration.completed": "Właśnie ukończyłeś pierwszą część kursu.",
+  "learning.celebration.congrats": "Gratulacje!",
+  "learning.celebration.earned": "!Udało Ci się!",
+  "learning.celebration.emailSubject": "Mam zamiar ukończyć {title} online z {platform}!",
+  "learning.celebration.forward": "Zacząć robić",
+  "learning.celebration.goalMet": "Osiągnąłeś swój cel!",
+  "learning.celebration.keepItUp": "Tak trzymaj",
+  "learning.celebration.share": "Poświęć chwilę na świętowanie i podzielenie się swoimi postępami.",
+  "learning.celebration.social": "Mam zamiar ukończyć {title} online z {platform}. Czego uczysz się?",
+  "learning.celebration.goalCongrats": "Gratulacje, osiągnąłeś swój cel nauki {nTimes} tygodniowo.",
+  "learning.celebration.setGoal": "Wyznaczenie celu może pomóc {strongText} w Twoim kursie.",
+  "calculator.instructions.button.label": "Instrukcje kalkulatora",
+  "calculator.instructions": "Szczegółowe informacje zob",
+  "calculator.instructions.support.title": "Centrum pomocy",
+  "calculator.instructions.useful.tips": "Pomocne wskazówki",
+  "calculator.hint1": "Użyj nawiasów (), aby wyrażenia były wyraźniejsze. Możesz używać nawiasów w innych nawiasach.",
+  "calculator.hint2": "Nie używaj spacji w wyrażeniach.",
+  "calculator.hint3": "W przypadku stałych wyraźnie określ mnożenie (np",
+  "calculator.hint4": "W przypadku afiksów wpisz liczbę i afiks (przedrostek lub sufiks) bez spacji. Przykład",
+  "calculator.hint5": "W przypadku funkcji wpisz nazwę funkcji, a następnie wyrażenie w nawiasach.",
+  "calculator.instruction.table.to.use.heading": "Używać",
+  "calculator.instruction.table.type.heading": "Facet",
+  "calculator.instruction.table.examples.heading": "Przykłady",
+  "calculator.instruction.table.to.use.numbers": "Liczby",
+  "calculator.instruction.table.to.use.numbers.type1": "Liczby całkowite",
+  "calculator.instruction.table.to.use.numbers.type2": "Ułamki",
+  "calculator.instruction.table.to.use.numbers.type3": "Liczby dziesiętne",
+  "calculator.instruction.table.to.use.operators": "Operatorzy",
+  "calculator.instruction.table.to.use.operators.type1": "(dodaj odejmuj mnoż dzielenie)",
+  "calculator.instruction.table.to.use.operators.type2": "(wznieść się do potęgi)",
+  "calculator.instruction.table.to.use.operators.type3": "(rezystory połączone równolegle)",
+  "calculator.instruction.table.to.use.constants": "Stałe",
+  "calculator.instruction.table.to.use.affixes": "dodane",
+  "calculator.instruction.table.to.use.affixes.type": "Znak procentu (%)",
+  "calculator.instruction.table.to.use.basic.functions": "Podstawowe funkcje",
+  "calculator.instruction.table.to.use.trig.functions": "Funkcje trygonometryczne",
+  "calculator.instruction.table.to.use.scientific.notation": "Notacja naukowa",
+  "calculator.instruction.table.to.use.scientific.notation.type1": "{exponentSyntax} i wykładnik",
+  "calculator.instruction.table.to.use.scientific.notation.type2": "notacja {notationSyntax}",
+  "calculator.instruction.table.to.use.scientific.notation.type3": "{notationSyntax} i wykładnik",
+  "calculator.button.label": "Kalkulator",
+  "calculator.input.field.label": "Wejście kalkulatora",
+  "calculator.submit.button.label": "Oblicz",
+  "calculator.result.field.label": "Wynik kalkulatora",
+  "calculator.result.field.placeholder": "Wynik",
+  "notes.button.show": "Pokaż notatki",
+  "notes.button.hide": "Ukryj notatki",
+  "courseExit.catalogSearchSuggestion": "Chcesz wiedzieć więcej? {searchOurCatalogLink}, aby znaleźć więcej kursów i programów do odkrycia.",
+  "courseCelebration.certificateBody.available": "\nPochwal się dzisiaj swoim osiągnięciem na LinkedIn lub w swoim CV.\nMożesz teraz pobrać swój certyfikat i uzyskać do niego dostęp w dowolnym momencie z poziomu\n{dashboardLink} i {profileLink}.",
+  "courseCelebration.certificateBody.notAvailable.endDate.v2": "Ten kurs kończy się {endDate}. Końcowe oceny i zdobyte certyfikaty będą dostępne po następującej dacie {certAvailableDate}.",
+  "courseCelebration.certificateBody.unverified": "Aby wygenerować certyfikat, musisz ukończyć weryfikację ID.\n{idVerificationSupportLink} teraz.",
+  "courseCelebration.certificateBody.upgradable": "Jeszcze nie jest za późno na uaktualnienie. Za {price} uzyskasz dostęp do wszystkich\n ocenianych zadań z tego kursu. Po ukończeniu otrzymasz zweryfikowany certyfikat, który jest\n cennym poświadczeniem zwiększającym Twoje perspektywy zatrudnienia i awansować w swojej karierze lub możesz użyć tego certyfikatu, aby wyróżnić się w aplikacjach na studia.",
+  "courseCelebration.upgradeDiscountCodePrompt": "Użyj kodu {code} przy kasie, aby uzyskać {percent}% zniżki.",
+  "courseCelebration.recommendations.heading": "Rozwijaj swoje umiejętności dzięki tym kursom!",
+  "courseCelebration.recommendations.label": "Gatunek",
+  "courseCelebration.recommendations.browse_catalog": "Poznaj więcej kursów",
+  "courseCelebration.recommendations.loading_recommendations": "Zalecenia dotyczące ładowania",
+  "courseCelebration.recommendations.card.schools.label": "Uczelnie i partnerzy",
+  "courseCelebration.dashboardInfo": "Możesz uzyskać dostęp do tego kursu i jego materiałów na swoim {dashboardLink}.",
+  "courseExit.programs.applyForCredit": "Poproś o kredyt",
+  "courseCelebration.certificateHeader.downloadable": "Twój certyfikat jest dostępny!",
+  "courseCelebration.certificateHeader.notAvailable": "Status Twojej kwalifikacji i certyfikatu będzie dostępny wkrótce.",
+  "courseCelebration.certificateBody.notAvailable.accessCertificate": "Jeśli uzyskałeś ocenę pozytywną, certyfikat zostanie wydany automatycznie.",
+  "courseCelebration.certificateHeader.unverified": "Musisz ukończyć weryfikację, aby otrzymać certyfikat.",
+  "courseCelebration.certificateHeader.requestable": "Gratulacje, kwalifikujesz się do otrzymania certyfikatu!",
+  "courseCelebration.certificateHeader.upgradable": "Aktualizacja do zweryfikowanego certyfikatu",
+  "courseCelebration.certificateImage": "wzór świadectwa",
+  "courseCelebration.completedCourseHeader": "Ukończyłeś kurs.",
+  "courseCelebration.congratulationsHeader": "Gratulacje!",
+  "courseCelebration.congratulationsImage": "Cztery osoby podnoszą ręce w geście świętowania",
+  "courseExit.courseInProgressDescription": "Wygląda na to, że w tym kursie pojawi się więcej treści w przyszłości. Śledź aktualizacje za pośrednictwem poczty elektronicznej lub sprawdź swój kurs, aby dowiedzieć się, kiedy te treści będą dostępne.",
+  "courseExit.courseInProgressHeader": "Wkrótce będzie więcej treści!",
+  "courseExit.dashboardLink": "Panel sterowania",
+  "courseExit.endOfCourseDescription": "Niestety, w tej chwili nie możesz zdobyć certyfikatu. Aby otrzymać certyfikat, musisz uzyskać pozytywną ocenę.",
+  "courseExit.endOfCourseHeader": "Dotarłeś do końca kursu!",
+  "courseExit.endOfCourseTitle": "Koniec kursu",
+  "courseExit.idVerificationSupportLink": "Więcej informacji o weryfikacji tożsamości",
+  "courseCelebration.linkedinAddToProfileButton": "Dodaj profil LinkedIn",
+  "courseExit.programs.microBachelors.learnMore": "Dowiedz się więcej o tym, jak możesz ubiegać się o kredyt z poświadczeniami MicroBachelor.",
+  "courseExit.programs.microMasters.learnMore": "Dowiedz się więcej o procesie ubiegania się o tytuł magistra z certyfikatem MicroMasters.",
+  "courseExit.programs.microMasters.mastersMessage": "Jeśli jesteś zainteresowany wykorzystaniem certyfikatu MicroMasters na studiach magisterskich, możesz zacząć już dziś!",
+  "learn.sequence.navigation.complete.button": "Ukończ kurs",
+  "courseExit.nextButton.endOfCourse": "Następny (oczywiście koniec)",
+  "courseExit.profileLink": "Profil",
+  "courseExit.programs.lastCourse": "Ukończyłeś ostatni kurs {title}!",
+  "courseCelebration.requestCertificateBodyText": "Aby uzyskać dostęp do certyfikatu, poproś o niego poniżej.",
+  "courseCelebration.requestCertificateButton": "Poproś o certyfikat",
+  "courseExit.searchOurCatalogLink": "Przeszukaj nasz katalog",
+  "courseCelebration.shareMessage": "Podziel się swoim sukcesem w mediach społecznościowych lub przez e-mail.",
+  "courseExit.social.shareCompletionMessage": "Właśnie ukończyłem {title} z {platform}!",
+  "courseExit.upgradeButton": "Aktualizuj teraz",
+  "courseExit.upgradeLink": "Ulepsz teraz",
+  "courseCelebration.verificationPending": "Twoja weryfikacja tożsamości jest w toku, a Twój certyfikat będzie dostępny po zatwierdzeniu.",
+  "courseExit.verifiedCertificateSupportLink": "Więcej informacji o zweryfikowanych certyfikatach",
+  "courseCelebration.verifyIdentityButton": "Zweryfikuj ID teraz",
+  "courseCelebration.viewCertificateButton": "Zobacz mój certyfikat",
+  "courseExit.viewCourseScheduleButton": "Zobacz program kursu",
+  "courseExit.viewCoursesButton": "Zobacz moje kursy",
+  "courseExit.viewGradesButton": "Zobacz oceny",
+  "courseExit.programCompletion.dashboardMessage": "Aby zobaczyć status swojego certyfikatu, przejdź do sekcji Programy swojego {programLink}.",
+  "courseExit.upgradeFootnote": "Dostęp do tego kursu i jego materiałów będzie dostępny w Twoim panelu głównym do {expirationDate}. Aby przedłużyć dostęp, {upgradeLink}.",
+  "learn.course.license.allRightsReserved.text": "Wszelkie prawa zastrzeżone",
+  "learn.course.license.creativeCommons.terms.preamble": "Treści objęte licencją Creative Commons, z następującymi warunkami",
+  "learn.course.license.creativeCommons.terms.by": "Atrybucja",
+  "learn.course.license.creativeCommons.terms.nc": "Brak reklamy",
+  "learn.course.license.creativeCommons.terms.nd": "Nie instrumenty pochodne",
+  "learn.course.license.creativeCommons.terms.sa": "Podziel się jednakowo",
+  "learn.course.license.creativeCommons.terms.zero": "Bez warunków",
+  "learn.course.license.creativeCommons.text": "Niektóre prawa zastrzeżone",
+  "learn.breadcrumb.navigation.course.home": "Gatunek",
+  "notification.tray.container": "Powiadomienie na pasku bocznym",
+  "notification.open.button": "Pokaż powiadomienie na pasku bocznym",
+  "notification.close.button": "Zamknij tacę powiadomień",
+  "responsive.close.notification": "Powrót do kursu",
+  "notification.tray.title": "Powiadomienia",
+  "notification.tray.no.message": "W tej chwili nie masz nowych powiadomień.",
+  "learn.contentLock.content.locked": "Zablokowana zawartość",
+  "learn.contentLock.complete.prerequisite": "Musisz spełnić warunek wstępny",
+  "learn.contentLock.goToSection": "Przejdź do sekcji wymagań wstępnych",
+  "learn.hiddenAfterDue.gradeAvailable": "Jeśli wykonałeś to zadanie, twoja ocena będzie dostępna na {progressPage}.",
+  "learn.hiddenAfterDue.header": "Termin wykonania tego zadania minął.",
+  "learn.hiddenAfterDue.description": "Ponieważ minął termin wykonania, to zadanie nie jest już dostępne.",
+  "learn.hiddenAfterDue.progressPage": "Strona Postępu",
+  "learn.honorCode.content": "Uczciwość i rzetelność akademicka są ważne dla {siteName} oraz instytucji oferujących kursy i programy w witrynie {siteName}. KlikającZgadzam się poniżej, potwierdzam, że przeczytałem, rozumiem i będę przestrzegać {link} witryny {siteName}.",
+  "learn.honorCode.name": "Kodeks honorowy",
+  "learn.honorCode.cancel": "Anulować",
+  "learn.honorCode.agree": "Zgadzam się ",
+  "learn.lockPaywall.title": "Zadania oceniane są zablokowane",
+  "learn.lockPaywall.content": "Przełącz na zweryfikowaną opcję, aby uzyskać dostęp do takich zablokowanych funkcji i jak najlepiej wykorzystać swój kurs.",
+  "learn.lockPaywall.content.pastExpiration": "Okres aktualizacji tego kursu upłynął. Aby dokonać aktualizacji, zapisz się na następną dostępną sesję.",
+  "learn.lockPaywall.courseDetails": "Wyświetl szczegóły kursu",
+  "learn.lockPaywall.example.alt": "Przykładowy certyfikat",
+  "learn.lockPaywall.list.intro": "Kiedy przełączysz się na zweryfikowaną opcję, ty",
+  "learn.header.h2.placeholder": "Wypowiedzi poziomu 2 mogą być tworzone przez organizatorów kursów w przyszłości.",
+  "learn.course.load.failure": "Wystąpił błąd podczas ładowania tego kursu.",
+  "learn.loading.honor.codk": "Ładowanie wiadomości z kodem honorowym...",
+  "learn.loading.content.lock": "Ładowanie wiadomości o zablokowanej treści...",
+  "learn.loading.learning.sequence": "Ładowanie sekwencji uczenia...",
+  "learn.sequence.no.content": "Tutaj nie ma treści.",
+  "learn.sequence.navigation.next.button": "Następny",
+  "learn.sequence.navigation.next.up.button": "Następny",
+  "learn.sequence.navigation.previous.button": "Poprzedni",
+  "learn.course.sequence.navigation.mobile.menu": "{bieżący} z {ogółem}",
+  "discussions.sidebar.title": "Dyskusje",
+  "discussions.sidebar.open.button": "Pokaż pasek dyskusji",
+  "learn.redirect.interstitial.message": "Przekierowanie...",
+  "learn.loading.error": "Błąd",
+  "learning.celebration.emailBody": "Jak poświęcasz swój czas na naukę?",
+  "learning.social.shareEmail": "Podziel się swoimi postępami przez e-mail.",
+  "learning.social.shareService": "Podziel się swoimi postępami w {service}.",
+  "general.altText.close": "Zamknąć",
+  "learning.logistration.register": "Zameldować się",
+  "learning.logistration.login": "Zaloguj sie",
+  "general.signIn.sentenceCase": "Zaloguj sie",
+  "learn.course.tabs.navigation.overflow.menu": "Plus...",
+  "learning.offer.screenReaderPrices": "Cena oryginalna",
+  "learning.upgradeButton.screenReaderInlinePrices": "Cena oryginalna",
+  "learning.upgradeButton.buttonText": "Opcja zweryfikowana {pricing}",
+  "learning.upgradeNowButton.buttonText": "Przełącz, aby zapłacić za opcję {pricing}",
+  "learning.generic.upgradeNotification.expirationAccessLoss.progress": "w tym wszelkie postępy",
+  "learning.generic.upgradeNotification.expirationVerifiedCert.benefits": "korzyści ze zmiany",
+  "learning.generic.upgradeNotification.expirationAccessLoss": "Utracisz cały dostęp do tego kursu, {w tymAnyProgress}, w dniu {date}.",
+  "learning.generic.upgradeNotification.expirationVerifiedCert": "Aktualizacja do wersji zweryfikowanej umożliwia uzyskanie zweryfikowanego certyfikatu i uzyskanie dostępu do wielu funkcji. Dowiedz się więcej o {benefitsOfUpgrading}.",
+  "learning.generic.upgradeNotification.pastExpiration.content": "Okres aktualizacji tego kursu upłynął. Aby dokonać aktualizacji, zapisz się na następną dostępną sesję.",
+  "learning.generic.upgradeNotification.expirationDays": "Pozostało {dayCount, number} {dayCount, plural, \none {day}\nother {dni}}",
+  "learning.generic.upgradeNotification.expirationHours": "Pozostało {hourCount, number} {hourCount, plural,\none {hour}\nother {hours}}",
+  "learning.generic.upgradeNotification.expirationMinutes": "Pozostała mniej niż 1 godzina",
+  "learning.generic.upgradeNotification.expiration": "Dostęp do kursu wygaśnie {date}",
+  "learning.generic.upgradeNotification.pastExpiration.banner": "Okres aktualizacji upłynął {date}",
+  "learning.generic.upgradeNotification.firstTimeLearnerDiscount": "{percentage}% zniżki powitalnej dla nowych studentów",
+  "learning.generic.upgradeNotification.accessExpiration": "Przełącz na zweryfikowaną opcję",
+  "learning.generic.upgradeNotification.accessExpirationUrgent": "Wygaśnięcie dostępu do kursu",
+  "learning.generic.upgradeNotification.accessExpirationPast": "Wygaśnięcie dostępu do kursu",
+  "learning.generic.upgradeNotification.pursueAverifiedCertificate": "Uzyskaj zweryfikowany certyfikat",
+  "learning.generic.upgradeNotification.code": "Użyj kodu {kod} przy kasie",
+  "learning.generic.upsell.verifiedCertBullet.verifiedCert": "certyfikat zweryfikowany",
+  "learning.generic.upsell.verifiedCertBullet": "Zdobądź {verifiedCertLink} ukończenia, aby udostępnić je w swoim CV",
+  "learning.generic.upsell.unlockGradedBullet.gradedAssignments": "zadania oceniane",
+  "learning.generic.upsell.unlockGradedBullet": "Odblokowuje dostęp do wszystkich aktywności na kursie, w tym {gradedAssignmentsInBoldText}",
+  "learning.generic.upsell.fullAccessBullet.fullAccess": "Pełny dostęp",
+  "learning.generic.upsell.fullAccessBullet": "{fullAccessInBoldText} do treści i materiałów kursu, nawet po zakończeniu kursu",
+  "learning.generic.upsell.supportMissionBullet.mission": "misja",
+  "learning.generic.upsell.supportMissionBullet": "Wspieraj naszą {missionInBoldText} w {siteName}",
+  "masquerade-widget.userName.error.generic": "Wystąpił błąd. Proszę spróbować ponownie.",
+  "masquerade-widget.userName.input.placeholder": "Nazwa użytkownika lub email",
+  "masquerade-widget.userName.input.label": "Udawaj, że jesteś tym użytkownikiem",
+  "tours.abandonTour.launchTourCheckpoint.body": "Czujesz się zagubiony? Rozpocznij wycieczkę w dowolnym momencie, aby uzyskać kilka szybkich wskazówek, jak najlepiej wykorzystać to doświadczenie.",
+  "tours.sequenceNavigationCheckpoint.body": "Górny pasek kursu umożliwia łatwe przeskakiwanie do różnych sekcji i pokazuje, co ma nadejść.",
+  "tours.existingUserTour.launchTourCheckpoint.body": "Niedawno dodaliśmy kilka nowych funkcji do kursu. Potrzebujesz pomocy w rozglądaniu się? Wybierz się na wycieczkę, aby dowiedzieć się więcej.",
+  "tours.button.dismiss": "Wyrzucać",
+  "tours.button.next": "Następny",
+  "tours.button.okay": "Dobra",
+  "tours.button.beginTour": "Rozpocząć wycieczkę",
+  "tours.button.launchTour": "wycieczka startowa",
+  "tours.newUserModal.body": "Wybierzmy się na krótką wycieczkę po witrynie {siteName}, aby w pełni wykorzystać swój kurs.",
+  "tours.newUserModal.title.welcome": "Witamy Państwa",
+  "tours.button.skipForNow": "Pomiń to na razie",
+  "tours.datesCheckpoint.body": "Ważne daty mogą pomóc Ci być na bieżąco.",
+  "tours.datesCheckpoint.title": "Bądź na bieżąco z kluczowymi datami",
+  "tours.outlineCheckpoint.body": "Możesz przeglądać sekcje kursu, korzystając z poniższego konspektu.",
+  "tours.outlineCheckpoint.title": "Idź na kurs!",
+  "tours.tabNavigationCheckpoint.body": "Zakładki te mogą służyć do uzyskiwania dostępu do innych materiałów kursu, takich jak postępy, program nauczania itp.",
+  "tours.tabNavigationCheckpoint.title": "Dodatkowe zasoby kursu",
+  "tours.upgradeCheckpoint.body": "Pracuj nad uzyskaniem certyfikatu i uzyskaj pełny dostęp do materiałów szkoleniowych. Zaktualizuj teraz!",
+  "tours.upgradeCheckpoint.title": "Odblokuj swój kurs",
+  "tours.weeklyGoalsCheckpoint.body": "Wyznaczenie celu zwiększa szanse na ukończenie kursu.",
+  "tours.weeklyGoalsCheckpoint.title": "Wyznacz cel kursu",
+  "tours.newUserModal.title": "{welcome} kurs na {siteName}!",
+  "learning.effortEstimation.combinedEstimate": "{minuty} + {czynności}",
+  "learning.effortEstimation.activities": "{liczba aktywności, liczba mnoga, jedna {# czynności} wiele {# czynności} inne {# czynności}}",
+  "learning.effortEstimation.minutesAbbreviated": "{minuteCount, liczba mnoga, jeden {# minuty} wiele {# min} other {# min}}",
+  "learning.effortEstimation.minutesFull": "{minuteCount, liczba mnoga, jeden {# minut} wiele {# minut} other {# minut}}",
+  "learning.streakCelebration.congratulations": "Gratulacje!",
+  "learning.streakCelebration.body": "Tak trzymaj, jesteś na fali!",
+  "learning.streakCelebration.button": "Tak trzymaj",
+  "learning.streakCelebration.buttonSrOnly": "Zamknij modal i kontynuuj",
+  "learning.streakCelebration.buttonAA759": "Kontynuuj kurs",
+  "learning.streakCelebration.header": "dni z rzędu",
+  "learning.streakCelebration.factoidABoldedSection": "mają 20 razy większe szanse na zaliczenie kursu",
+  "learning.streakCelebration.factoidBBoldedSection": "wykonują średnio 5 razy więcej treści kursu",
+  "learning.streakCelebration.streakDiscountMessage": "Odblokowałeś {percent}% zniżki na uaktualnienie tego kursu, tylko przez ograniczony czas.",
+  "learning.streakcelebration.factoida": "Użytkownicy, którzy uczą się {streak_length} dni z rzędu {bolded_section} niż ci, którzy tego nie robią.",
+  "learning.streakcelebration.factoidb": "Użytkownicy, którzy uczą się {streak_length} dni z rzędu {bolded_section} vs. ci, którzy tego nie robią.",
+  "learning.streakCelebration.streakCelebrationCouponEndDateMessage": "Data zakonczenia}.",
+  "learning.loading.failure": "Wystąpił błąd podczas ładowania tego kursu.",
   "learning.loading": "Ładowanie strony kursu..."
 }{% endraw %}
