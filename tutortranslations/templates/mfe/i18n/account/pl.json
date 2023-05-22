@@ -1,3 +1,5 @@
-{% if 'pl' in TRANSLATIONS_MFE_ACCOUNT %}{ {% for key,value in TRANSLATIONS_MFE_ACCOUNT.pl.items() %}
+{
+{% if 'pl' in TRANSLATIONS_MFE_ACCOUNT %}{% for key,value in TRANSLATIONS_MFE_ACCOUNT.pl.items() %}
   "{{ key }}": "{{ value }}"{%- if not loop.last %},{% endif %}{% endfor %}
-}{% endif %}
+{% endif %}
+}
