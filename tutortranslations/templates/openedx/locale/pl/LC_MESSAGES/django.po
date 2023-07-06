@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8"
-{% for key,value in TRANSLATIONS_OPENEDX.pl.items() %}
+{% if 'pl' in TRANSLATIONS_OPENEDX %}{% for key,value in TRANSLATIONS_OPENEDX.pl.items() %}
 msgid "{{ key }}"
 msgstr "{{ value }}"
-{% endfor %}
+{% endfor %}{% endif %}
