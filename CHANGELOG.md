@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- Add templates for arabic language
+
 ## Version 14.0.3 (2023-10-04)
 - Set dependency to Tutor 14 / Nutmeg
 
