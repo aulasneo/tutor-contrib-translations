@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## Version 15.0.1 (2024-07-01)
 - Add templates for arabic language
 
 ## Version 15.0.0 (2023-10-04)
