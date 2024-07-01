@@ -1,8 +1,10 @@
 # Changelog
 
+## Unreleased
+- Add templates for arabic language
+
 ## Version 16.0.0 (2023-11-17)
 - Upgrade to Palm
-
 
 ## Version 15.0.0 (2023-10-04)
 - Set dependency for Tutor 15 / Olive
