@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- Upgrade to Quince
+
 ## Version 16.0.1 (2024-07-01)
 - Add templates for arabic language
 

@@ -3,12 +3,15 @@ translations plugin for `Tutor <https://docs.tutor.overhang.io>`__
 
 This plugin allows adding or overriding translations strings easily from the ``config.yml``.
 
+.. image:: https://img.shields.io/badge/linting-pylint-yellowgreen
+    :target: https://github.com/pylint-dev/pylint
+
 Installation
 ------------
 
 ::
 
-    pip install git+https://github.com/aulasneo/tutor-contrib-translations
+    pip install tutor-contrib-translations
 
 Usage
 -----
